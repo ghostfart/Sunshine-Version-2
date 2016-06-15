@@ -113,6 +113,11 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
         mHumidityView = (TextView) rootView.findViewById(R.id.detail_humidity_textview);
         mWindView = (TextView) rootView.findViewById(R.id.detail_wind_textview);
         mPressureView = (TextView) rootView.findViewById(R.id.detail_pressure_textview);
+
+//        MyView myView = new MyView(getActivity());
+//        FrameLayout customPlaceHolder = (FrameLayout) rootView.findViewById(R.id.custom_view_holder);
+//        customPlaceHolder.addView(myView);
+
         return rootView;
     }
 

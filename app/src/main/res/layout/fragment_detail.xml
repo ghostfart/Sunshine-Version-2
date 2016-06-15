@@ -77,12 +77,20 @@
                     android:textAppearance="?android:textAppearanceLarge"
                     android:textColor="@color/grey_700" />
 
+                <!--<FrameLayout-->
+                    <!--android:id="@+id/custom_view_holder"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp">-->
+
+                <!--</FrameLayout>-->
+
             </LinearLayout>
 
         </LinearLayout>
 
         <!-- Humidity, wind, pressure -->
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginRight="0dp"
